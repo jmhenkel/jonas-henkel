@@ -112,6 +112,12 @@ a {
   gap: 18px;
 }
 
+.page-sidebar-quiet {
+  width: min(100%, 220px);
+  justify-self: end;
+  top: 40px;
+}
+
 .home-intro {
   padding-top: 0;
   border-top: 0;
