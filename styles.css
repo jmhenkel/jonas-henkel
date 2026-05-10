@@ -222,7 +222,8 @@ a {
 
 .page > .content-block,
 .page > .split-section,
-.page > .grid {
+.page > .grid,
+.page > .cv-grid {
   padding-top: 22px;
   border-top: 1px solid var(--line);
 }
