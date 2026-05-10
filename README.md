@@ -1,7 +1,5 @@
 # Jonas Henkel Website
 
-Personal website for Jonas Henkel.
-
 ## Files
 
 - `index.html` - homepage
