@@ -1,6 +1,6 @@
 # Jonas Henkel Website
 
-Static multi-page personal website adapted from the provided CV.
+Personal website for Jonas Henkel.
 
 ## Files
 
@@ -9,6 +9,7 @@ Static multi-page personal website adapted from the provided CV.
 - `talks.html` - invited talks and presentations
 - `teaching.html` - teaching page
 - `cv.html` - web version of the CV
+- `assets/` - portrait image and PDF CV
 - `styles.css` - shared styling
 
 ## Publish with GitHub Pages
@@ -21,6 +22,5 @@ Static multi-page personal website adapted from the provided CV.
 
 ## Good next additions
 
-- Add a PDF version of the CV and link it from `cv.html`.
 - Add links to arXiv, Google Scholar, ORCID, and institutional profile pages.
-- Add a portrait if you want a more personal homepage.
+- Add a publications page with abstracts or links to preprints.
