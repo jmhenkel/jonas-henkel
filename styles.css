@@ -243,6 +243,11 @@ a {
   border-top: 1px solid var(--line);
 }
 
+.page > .page-figure {
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+}
+
 .two-up {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -255,6 +260,7 @@ a {
 .contact-card,
 .content-block,
 .topic-group,
+.page-figure,
 .sidebar-block {
   padding: 0;
 }
@@ -307,6 +313,24 @@ a {
 .portrait-caption {
   margin: 10px 0 0;
   font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.page-figure {
+  margin: 0;
+}
+
+.page-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.page-figure figcaption {
+  margin-top: 10px;
+  font-size: 0.9rem;
   line-height: 1.6;
   color: var(--muted);
 }
@@ -499,7 +523,8 @@ a {
   .page > .content-block,
   .page > .split-section,
   .page > .grid,
-  .page > .cv-grid {
+  .page > .cv-grid,
+  .page > .page-figure {
     padding-top: 18px;
   }
 
