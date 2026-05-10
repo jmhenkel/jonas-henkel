@@ -87,23 +87,25 @@ a {
   padding: 0;
 }
 
-.home-grid {
+.page-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(220px, 280px);
   gap: 40px;
   align-items: start;
 }
 
-.home-main {
+.page-main {
   min-width: 0;
+  display: grid;
+  gap: 36px;
 }
 
-.home-main > section + section {
+.page-main > section + section {
   padding-top: 22px;
   border-top: 1px solid var(--line);
 }
 
-.home-sidebar {
+.page-sidebar {
   position: sticky;
   top: 28px;
   display: grid;
@@ -360,7 +362,7 @@ a {
 
 @media (max-width: 860px) {
   .site-header,
-  .home-grid,
+  .page-layout,
   .hero-layout,
   .split-section,
   .two-up,
@@ -384,7 +386,7 @@ a {
     width: min(100%, 260px);
   }
 
-  .home-sidebar {
+  .page-sidebar {
     position: static;
   }
 }
