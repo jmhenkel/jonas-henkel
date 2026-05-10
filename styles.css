@@ -94,6 +94,21 @@ a {
   align-items: start;
 }
 
+.page-layout-home > .page-intro {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.page-layout-home > .page-sidebar {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+.page-layout-home > .home-positions {
+  grid-column: 1;
+  grid-row: 2;
+}
+
 .page-main {
   min-width: 0;
   display: grid;
@@ -270,6 +285,7 @@ a {
   color: var(--accent);
   text-decoration: none;
   border-bottom: 1px solid transparent;
+  overflow-wrap: anywhere;
 }
 
 .hero-media {
@@ -381,11 +397,26 @@ a {
 
   .site-header {
     justify-content: start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .site-nav {
+    width: 100%;
+    gap: 8px 14px;
   }
 
   .hero h1,
   .page-intro h1 {
     max-width: none;
+  }
+
+  .page {
+    gap: 28px;
+  }
+
+  .page-main {
+    gap: 30px;
   }
 
   .hero-media {
@@ -396,11 +427,40 @@ a {
   .page-sidebar {
     position: static;
   }
+
+  .page-layout-home > .page-intro,
+  .page-layout-home > .page-sidebar,
+  .page-layout-home > .home-positions {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .page-home .page-sidebar {
+    width: min(100%, 240px);
+    gap: 14px;
+  }
 }
 
 @media (max-width: 640px) {
   .site-shell {
-    padding: 24px 18px 44px;
+    padding: 22px 16px 40px;
+  }
+
+  .site-header {
+    padding-bottom: 16px;
+  }
+
+  .wordmark {
+    font-size: 1.55rem;
+  }
+
+  .site-nav {
+    gap: 6px 12px;
+  }
+
+  .site-nav a {
+    padding: 6px 0;
+    font-size: 0.92rem;
   }
 
   .publication-list li,
@@ -410,7 +470,56 @@ a {
     gap: 8px;
   }
 
-  .site-nav {
-    gap: 10px 14px;
+  .hero h1,
+  .page-intro h1 {
+    font-size: clamp(2rem, 10.5vw, 2.7rem);
+    line-height: 1.12;
+  }
+
+  .lede {
+    margin-top: 14px;
+    font-size: 0.97rem;
+    line-height: 1.68;
+  }
+
+  .hero-note {
+    line-height: 1.64;
+  }
+
+  .page {
+    gap: 24px;
+  }
+
+  .page-main,
+  .cv-column {
+    gap: 28px;
+  }
+
+  .page-main > section + section,
+  .page > .content-block,
+  .page > .split-section,
+  .page > .grid,
+  .page > .cv-grid {
+    padding-top: 18px;
+  }
+
+  .stack-list li,
+  .timeline li,
+  .publication-list li {
+    padding: 14px 0;
+  }
+
+  .timeline-date,
+  .pub-year {
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .cv-grid {
+    gap: 28px;
+  }
+
+  .page-home .portrait-frame {
+    width: min(100%, 220px);
   }
 }
