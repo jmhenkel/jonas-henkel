@@ -1,6 +1,6 @@
-# Jonas Henkel Academic Website
+# Jonas Henkel Website
 
-Static multi-page website inspired by the clean academic structure of Hannah Friedman's site and adapted from the provided CV.
+Static multi-page personal website adapted from the provided CV.
 
 ## Files
 
@@ -13,12 +13,11 @@ Static multi-page website inspired by the clean academic structure of Hannah Fri
 
 ## Publish with GitHub Pages
 
-1. Create a new GitHub repository, for example `jonas-henkel-website`.
-2. Upload these files to the repository root.
-3. In GitHub, open `Settings` -> `Pages`.
-4. Set the source to `Deploy from a branch`.
-5. Choose the `main` branch and `/ (root)`.
-6. Save. GitHub will publish the site at a URL like `https://<username>.github.io/jonas-henkel-website/`.
+1. Upload these files to the repository root.
+2. In GitHub, open `Settings` -> `Pages`.
+3. Set the source to `Deploy from a branch`.
+4. Choose the `main` branch and `/ (root)`.
+5. Save. GitHub will publish the site at `https://jmhenkel.github.io/jonas-henkel/`.
 
 ## Good next additions
 
