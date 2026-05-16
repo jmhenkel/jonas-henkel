@@ -1,24 +1,19 @@
-# Jonas Henkel Website
+# Jonas Henkel
 
-## Files
+Source code for the personal academic website of Jonas Henkel.
 
-- `index.html` - homepage
+Live site: [https://jmhenkel.github.io/](https://jmhenkel.github.io/)
+
+## Structure
+
+- `index.html` - home page
 - `research.html` - research overview and publications
 - `talks.html` - invited talks and presentations
 - `teaching.html` - teaching page
-- `cv.html` - web version of the CV
-- `assets/` - portrait image and PDF CV
+- `cv.html` - web version of the curriculum vitae
 - `styles.css` - shared styling
+- `assets/` - images, slides, and PDF files
 
-## Publish with GitHub Pages
+## Notes
 
-1. Upload these files to the repository root.
-2. In GitHub, open `Settings` -> `Pages`.
-3. Set the source to `Deploy from a branch`.
-4. Choose the `main` branch and `/ (root)`.
-5. Save. GitHub will publish the site at `https://jmhenkel.github.io/jonas-henkel/`.
-
-## Good next additions
-
-- Add links to arXiv, Google Scholar, ORCID, and institutional profile pages.
-- Add a publications page with abstracts or links to preprints.
+This is a small static website built with HTML and CSS and hosted via GitHub Pages.

@@ -294,6 +294,57 @@ a {
   overflow-wrap: anywhere;
 }
 
+.contact-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.contact-links li {
+  margin: 0;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-icon {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+.contact-icon-svg svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  fill: currentColor;
+}
+
+.contact-icon-badge {
+  border-radius: 999px;
+  font-size: 0.58rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.contact-icon-orcid {
+  background: #a6ce39;
+}
+
+.contact-icon-arxiv {
+  background: var(--accent);
+}
+
 .hero-media {
   justify-self: end;
   width: min(100%, 280px);
